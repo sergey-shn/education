@@ -1,0 +1,92 @@
+/* .menu ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+}
+.menu .title {
+    font-size: 18px;
+    cursor: pointer;
+}
+.menu .title::before {
+    content: '▶';
+    color: rgb(47, 10, 255);
+    font-size: 80%;
+}
+.menu.open .title::before {
+    content: '▼';
+    color: green;
+}
+.menu.open ul{
+    display: block;
+} */
+#field {
+    margin: 20;
+    height: 200px;
+    width: 300px;
+    border: 10px solid;
+    background-color: rgb(7, 255, 7);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.list {
+    margin-top: 20px;
+}
+.dash {
+    margin: 10px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dashed rgb(0, 0, 0);
+}
+#ball {
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    transition: 1s all;
+}
+
+body {
+    margin: 10px auto;
+    width: 500px;
+}
+.h3 {
+    font-weight: bold;
+    margin: 10px;
+}
+.pane {
+    border-top: 1px solid #23ad07;
+    background-color: rgb(219, 219, 180);
+    position: relative;
+    padding: 10px 20px 10px;
+}
+.remove-button {
+    position: absolute;
+    font-size: 110%;
+    top: 5px;
+    color: darkred;
+    right: 10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+a {
+    margin-top: 40px;
+    text-decoration: none;
+    outline: none;
+    font-size: 18px;
+}
+.alert {
+    padding-top: 20px;
+    border-radius: 5px;
+    border: 5px solid gray;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
