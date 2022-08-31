@@ -102,6 +102,7 @@ const gena = {
 person.logInfo.call(gena, "Frontend", "8-999-293-22-33"); // Call позволяет задвать контекст, но вызывает функцию сразу.
 
 person.logInfo.apply(gena, ["Frontend", "8-999-293-22-33"]); // Apply то же самое что и call, но принимает только 2 аргумента и 2 аргумент всегда массив.
+
 // =================================
 
 const array = [2, 8, 4, 4, 5, 7];
@@ -123,3 +124,5 @@ Array.prototype.Sorrt = function (n) {
 
 console.log(array.Sorrt(28));
 console.log(array2.Sorrt(100));
+
+

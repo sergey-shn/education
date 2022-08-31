@@ -90,3 +90,9 @@ a {
     height: 20px;
     text-align: center;
 }
+.zag {
+    align-items: flex-end;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
